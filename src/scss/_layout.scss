@@ -1,7 +1,8 @@
 .container {
   max-width: 120rem;
   margin: 8rem auto;
-  background-color: var(--color-grey-light-1);
+  // background-color: var(--color-grey-light-1);
+  background-color: #fff;
   box-shadow: var(--shadow-dark);
 
   min-height: 50rem;
@@ -32,10 +33,10 @@ justify-content: space-between;
 
 .hotel-view {
 flex: 1;
-height: 80rem;
 }
 
 .detail {
+  font-size: 1.4rem;
   display: flex;
   padding: 4.5rem;
   background-color: var(--color-grey-light-1);
@@ -51,6 +52,5 @@ height: 80rem;
 }
 
 .user-reviews {
-  background-color: yellowgreen;
   flex: 1;
 }
